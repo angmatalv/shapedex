@@ -16,7 +16,7 @@ public class Dice {
 	 * the smallest number that can be obtained is always greater than zero.
 	 */
 
-	private static final int ARBITRARY_NUMBER = 1;
+	private static final int ARBITRARY_VALUE = 1;
 
 	/**
 	 * Rolls the dice, with the number of sides given through the parameter.
@@ -32,7 +32,7 @@ public class Dice {
 
 	public static int roll(int size) {
 		Random randomizer = new Random();
-		return randomizer.nextInt(size) + ARBITRARY_NUMBER;
+		return randomizer.nextInt(size) + ARBITRARY_VALUE;
 
 	}
 }
