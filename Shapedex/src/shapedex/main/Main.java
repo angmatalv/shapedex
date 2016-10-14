@@ -11,7 +11,7 @@ import shapedex.types.Warrior;
  * Main class for Shapedex.
  * 
  * @author Angel Mate
- * @version 2016-10-14
+ * @version 2016-10-15
  *
  */
 
@@ -62,6 +62,7 @@ public class Main {
 		
 		Lock doorLock = new Lock();
 		conan.pickLock(doorLock);
+		conan.startSneaking();
 
 	}
 
