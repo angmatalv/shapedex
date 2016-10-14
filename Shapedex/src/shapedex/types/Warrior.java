@@ -8,7 +8,7 @@ import shapedex.tools.*;
  * Warrior class for Shapedex.
  * 
  * @author Angel Mate
- * @version 2016-10-14
+ * @version 2016-10-15
  *
  */
 
@@ -417,6 +417,10 @@ public class Warrior {
 			System.out.println("Lockpick failed!");
 		}
 
+	}
+	
+	public void startSneaking() {
+		System.out.println(this.getName() + " has entered sneak mode...");
 	}
 
 	@Override
